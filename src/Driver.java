@@ -1,3 +1,12 @@
+/**
+ * This Project is created by Melissa for the purposes of demonstrating
+ * how to code a Java GUI with a "memory"
+ * 
+ * This class is test box to examine the methods in FileManager.java
+ * and CrewMember.java - or really any classes.  
+ * 
+ * This was coded November 2016
+ */
 import java.io.IOException;
 import java.util.ArrayList;
 

@@ -1,3 +1,13 @@
+/**
+ * This Project is created by Melissa for the purposes of demonstrating
+ * how to code a Java GUI with a "memory"
+ * 
+ * This class reads from and writes to our data file. 
+ * 
+ * This was coded November 2016
+ */
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;

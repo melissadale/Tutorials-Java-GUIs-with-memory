@@ -1,3 +1,12 @@
+/**
+ * This Project is created by Melissa for the purposes of demonstrating
+ * how to code a Java GUI with a "memory"
+ * 
+ * This class is a simple class for our CrewMember Object
+ * 
+ * This was coded November 2016
+ */
+
 public class CrewMember {
 	public String name;
 	public String shirt;

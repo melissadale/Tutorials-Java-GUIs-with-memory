@@ -1,0 +1,12 @@
+.settings/org.eclipse.jdt.core.prefs
+bin/CrewMember.class
+bin/Driver.class
+bin/FileManager.class
+bin/GUI$1.class
+bin/GUI$2.class
+bin/GUI$3.class
+bin/GUI.class
+bin/Helpers.class
+.classpath
+.project
+bin/Records.txt

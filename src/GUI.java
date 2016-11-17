@@ -135,10 +135,20 @@ public class GUI extends JFrame {
 		btnFind.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String name = lookForName_tf.getText();
-				CrewMember lookfor = Helpers.findMember(name, theCrew);
-				foundN_tf.setText(lookfor.name);
-				foundS_tf.setText(lookfor.shirt);
-				foundR_tf.setText(lookfor.title);
+				
+				String placeholder = "NA";
+				CrewMember tmp = new CrewMember(placeholder, placeholder, placeholder);
+				
+				//Loop through our arraylist looking for given name
+				for(int i = 0; i<theCrew.size(); i++){
+					if(theCrew.get(i).name.equals(name))
+						tmp = theCrew.get(i);
+				}
+				
+				
+				foundN_tf.setText(tmp.name);
+				foundS_tf.setText(tmp.shirt);
+				foundR_tf.setText(tmp.title);
 			}
 		});
 		btnFind.setFont(new Font("Tahoma", Font.BOLD, 13));

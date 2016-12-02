@@ -20,9 +20,7 @@ public class Driver {
 		FileManager testReader = new FileManager();
 		ArrayList<CrewMember> testCrews = testReader.initList();
 		System.out.println(testCrews.get(0).name);
-		
-		CrewMember found = Helpers.findMember("Spock", testCrews);
-		System.out.println(found.shirt);
+
 	}
 
 		
